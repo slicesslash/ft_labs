@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+a {
+    color: #8289c8;
+}
+
+body {
+    background: #fefbfb;
+    color: #1e0a08;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h1, h2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text {
+    padding-left: 16px;
+    max-width: 600px;
+}
+
+.moleben {
+    width: 250px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.imaghe {
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+}
+
+.primary {
+    color: #c94f43;
+}
+
+.accent {
+    color: #1157f9;
+}
+
+.arrow {
+    font-size: 32px;
+}
+
+.color-effect {
+    background: linear-gradient(120deg, #ef1a8e, #4ff3e4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.brad {
+    display: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.card {
+    max-width: 50%;
+    border: 1px solid #1e0a08;
+    padding: 32px;
+}
+
+section {
+    margin: 48px 0;
+}
+
+.show {
+    display: block;
+}
