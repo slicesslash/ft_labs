@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --text-color: hsl(334, 100%, 3%);
+    --background-color: hsl(336, 100%, 98%);
+    --primary-color: hsl(347, 93%, 41%);
+    --secondary-color: hsl(24, 43%, 42%);
+    --accent-color: hsl(105, 89%, 26%);
+    --background-alt-color: hsl(336, 100%, 96%);
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.color-effect {
+    background: linear-gradient(120deg, var(--primary-color), var(--accent-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Prociono', serif;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+section:nth-child(odd) {
+    background-color: var(--background-alt-color);
+}
+
+section {
+    padding: 48px 0;
+}
+
+
+
+
+

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+@import url('../global.css');
+
+h1 {
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    border: 2px var(--text-color) solid;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    border: 1px solid var(--text-color);
+}
+
+.container1 {
+    height: 400px;
+    justify-content: center;
+    background: var(--primary-color);
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+    height: 400px;
+}
+
+.block2 {
+    background: var(--primary-color);
+}
+
+.container3 {
+    gap: 16px;
+    flex-wrap: wrap;
+    background: var(--secondary-color);
+}
+
+.block3 {
+    background: var(--accent-color);
+}
+
+.container4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--background-alt-color);
+}
+
+.relative-block {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.upper-block {
+    border: 4px solid var(--primary-color);
+    top: 40px;
+    right: 120px;
+
+}
+
+.mid-block {
+    border: 4px solid var(--secondary-color);
+    right: 60px;
+    bottom: 10px;
+}
+
+.lower-block {
+    border: 4px solid var(--accent-color);
+    bottom: 60px;
+}
+
+.image-cat {
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
