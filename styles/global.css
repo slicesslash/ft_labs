@@ -32,6 +32,12 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', sans-serif;
 }
 
+h1 {
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
 a {
     color: var(--secondary-color);
 }
@@ -65,8 +71,3 @@ section:nth-child(odd) {
 section {
     padding: 48px 0;
 }
-
-
-
-
-
