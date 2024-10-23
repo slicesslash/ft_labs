@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('global.css');
 
-.text {
+.text-container {
     padding-left: 16px;
     max-width: 600px;
 }
