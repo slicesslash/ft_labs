@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../styles/lab_3.css">
+  <link rel="stylesheet" href="../styles/positioning.css">
   <meta charset="UTF-8">
   <title>Positioning using CSS ༼ つ ◕_◕ ༽つ</title>
 </head>
@@ -9,9 +9,9 @@
   <header>
     <div class="wrapper">
       <nav>
-        <a href="lab_1_2.html">Основная страница</a>
-        <a href="lab_3.html">Позиционирование элементов</a>
-        <a href="lab_4.html">Таблица</a>
+        <a href="home.html">Основная страница</a>
+        <a href="positioning.html">Позиционирование элементов</a>
+        <a href="table_form.html">Таблица</a>
       </nav>
     </div>
   </header>
@@ -25,13 +25,12 @@
   <section>
     <div class="wrapper"><h2>Горизонтальное позиционирование</h2>
       <div class="container container-1">
-        <div class="block block-1">
-          <img
-            class="scythe-image"
-            src="https://cdn.discordapp.com/attachments/1198126721430470718/1297656361592688720/81cf319ae561c33f5e7f6f60d0526b62.jpg?ex=6716b829&is=671566a9&hm=0a4c2499793a614c242bc8f4e81e3c4c5479d3c9ebc988ed8dcb3bcb391229d3&"
-            alt="img"
-          />
-        </div>
+        <div class="block block-1"></div>
+        <img
+          class="scythe-image"
+          src="https://cdn.discordapp.com/attachments/1198126721430470718/1297656361592688720/81cf319ae561c33f5e7f6f60d0526b62.jpg?ex=6716b829&is=671566a9&hm=0a4c2499793a614c242bc8f4e81e3c4c5479d3c9ebc988ed8dcb3bcb391229d3&"
+          alt="img"
+        />
       </div>
     </div>
   </section>
@@ -68,10 +67,12 @@
   <section>
     <div class="wrapper">
       <h2>Работа со свойством position</h2>
-      <div class="container container-4">
-        <div class="relative-block upper-block"></div>
-        <div class="relative-block mid-block"></div>
-        <div class="relative-block lower-block"></div>
+      <div class="container outer-container-4">
+        <div class="container inner-container-4">
+          <div class="relative-block red-block"></div>
+          <div class="relative-block brown-block"></div>
+          <div class="relative-block green-block"></div>
+        </div>
       </div>
     </div>
   </section>

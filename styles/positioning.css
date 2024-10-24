@@ -12,14 +12,21 @@
 }
 
 .container-1 {
+    gap: 16px;
     height: 400px;
     justify-content: center;
     background: var(--primary-color);
 }
 
+.block-1 {
+    margin-top: 8px;
+}
+
 .scythe-image {
-    width: 100%;
-    height: 100%;
+    border: 1px solid var(--text-color);
+    margin-top: 8px;
+    width: 200px;
+    height: 200px;
 }
 
 .container-2 {
@@ -43,35 +50,40 @@
     background: var(--accent-color);
 }
 
-.container-4 {
-    flex-direction: column;
+.outer-container-4 {
     justify-content: center;
-    align-items: center;
-    background: var(--background-alt-color);
+}
+
+.inner-container-4 {
+    margin: 16px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 1px dashed var(--text-color);
 }
 
 .relative-block {
     height: 100px;
     width: 100px;
-    position: relative;
+    position: absolute;
 }
 
-.upper-block {
+.red-block {
     border: 4px solid var(--primary-color);
-    top: 40px;
-    right: 120px;
-
+    top: 35px;
+    left: 35px;
 }
 
-.mid-block {
+.brown-block {
     border: 4px solid var(--secondary-color);
-    right: 60px;
-    bottom: 10px;
+    top: 100px;
+    left: 100px;
 }
 
-.lower-block {
+.green-block {
     border: 4px solid var(--accent-color);
-    bottom: 60px;
+    top: 165px;
+    left: 165px;
 }
 
 .image-cat {

@@ -1,0 +1,80 @@
+@import url('global.css');
+
+caption {
+    padding-bottom: 24px;
+    font-size: 32px;
+    text-align: center;
+}
+
+table {
+    --tr_3n_color: hsl(336, 100%, 88%);
+    --tr_3n-1_color: hsl(336, 100%, 93%);
+    --tr_3n-2_color: hsl(336, 100%, 83%);
+    --th_color: hsl(330, 22%, 95%);
+    border-collapse: collapse;
+}
+
+td, tr, th {
+    border: 1px solid var(--text-color);
+}
+
+tr:nth-child(3n) {
+    background-color: var(--tr_3n_color);
+}
+
+tr:nth-child(3n-2) {
+    background-color: var(--tr_3n-1_color);
+}
+
+tr:nth-child(3n-1) {
+    background-color: var(--tr_3n-2_color);
+}
+
+th {
+    background-color: var(--th_color);
+    padding: 4px 12px;
+    text-align: start;
+}
+
+td {
+    padding: 4px 12px;
+}
+
+form {
+    background-color: var(--background-alt-color);
+    max-width: 400px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    gap: 4px;
+}
+
+input {
+    padding: 4px 8px;
+    border: 1px solid hsl(336, 44%, 77%);
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Prociono', serif;
+}
+
+button:hover {
+    background-color: var(--background-color);
+}

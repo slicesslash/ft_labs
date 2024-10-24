@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../styles/lab_4.css">
+  <link rel="stylesheet" href="../styles/table_form.css">
+  <script src="../scripts/table_form.js" defer></script>
   <meta charset="UTF-8">
   <title>Таблица</title>
 </head>
@@ -9,9 +10,9 @@
   <header>
     <div class="wrapper">
       <nav>
-        <a href="lab_1_2.html">Основная страница</a>
-        <a href="lab_3.html">Позиционирование элементов</a>
-        <a href="lab_4.html">Таблица</a>
+        <a href="home.html">Основная страница</a>
+        <a href="positioning.html">Позиционирование элементов</a>
+        <a href="table_form.html">Таблица</a>
       </nav>
     </div>
   </header>
@@ -24,8 +25,8 @@
 
   <section>
     <div class="wrapper">
+      <h2>День рук</h2>
       <table>
-        <caption>День рук</caption>
         <thead>
           <tr>
             <th>#</th>
@@ -36,7 +37,7 @@
             <th>Жыле́за</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="tbody">
         <tr>
           <td>1</td>
           <td>Холмогория</td>
@@ -82,5 +83,33 @@
     </div>
   </section>
 
+  <section>
+    <div class="wrapper">
+      <h2>Новое упражнение</h2>
+      <form action="" id="form">
+        <label>
+          <span>Название</span>
+          <input type="text" id="name" required/>
+        </label>
+        <label>
+          <span>Количество повторений</span>
+          <input type="number" id="amount" required/>
+        </label>
+        <label>
+          <span>Процент людских смятений</span>
+          <input type="number" id="percentage" min="0" max="100" required/>
+        </label>
+        <label>
+          <span>Вероятность бабушкиных переживаний</span>
+          <input type="number" id="probability" min="0" max="100" required/>
+        </label>
+        <label>
+          <span>Жыле́за</span>
+          <input type="text" id="iron" required/>
+        </label>
+        <button type="submit" id="submit">Добавить</button>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
