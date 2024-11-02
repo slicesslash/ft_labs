@@ -53,6 +53,13 @@ h2, h3 {
     border-radius: var(--bs-border-radius);
 }
 
+.navbar-section {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
 .row {
     padding: 12px 0;
 }
@@ -79,4 +86,9 @@ p {
 
 .card-title {
     margin: 0;
+}
+
+.list-group {
+    position: sticky;
+    top: 96px;
 }
