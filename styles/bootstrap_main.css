@@ -5,3 +5,78 @@
 .navbar-brand {
     margin-right: 0;
 }
+
+.carousel {
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+    background-color: #222222;
+    border-radius: var(--bs-border-radius);
+}
+
+.col-8 {
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3 {
+    padding: 12px 0;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 0;
+    align-items: flex-start;
+}
+
+.card img {
+    height: 429px;
+    object-fit: cover;
+}
+
+.navbar {
+    border: 1px solid black;
+    border-radius: var(--bs-border-radius);
+}
+
+.row {
+    padding: 12px 0;
+}
+
+.d-inline-flex {
+    padding: 12px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.d-grid {
+    padding: 12px 0;
+}
+
+.card-conjure {
+    padding: 12px 0;
+}
+
+.card-text {
+    padding: 12px 0;
+}
+
+.card-title {
+    margin: 0;
+}

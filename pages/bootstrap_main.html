@@ -15,12 +15,13 @@
   <meta charset="UTF-8">
   <title>Bootstrap</title>
 </head>
+
 <body>
   <section>
     <div class="wrapper">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="../pages/bootstrap_main.html">
             <img
               class="brad-image"
               src="https://i.imgur.com/RThp5zx.png?1"
@@ -35,10 +36,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Information</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Films</a>
+                <a class="nav-link" href="../pages/bootstrap_additional.html">Filmography</a>
               </li>
             </ul>
           </div>
@@ -47,5 +45,106 @@
     </div>
   </section>
 
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-2">
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#photo-section">Photos</a>
+          <a class="list-group-item list-group-item-action" href="#popular-films">Popular films</a>
+          <a class="list-group-item list-group-item-action" href="#actor-info">Actor mini-biography</a>
+          <a class="list-group-item list-group-item-action" href="#view-more">More information</a>
+        </div>
+      </div>
+      <div class="col-10">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+          <section id="photo-section">
+            <h2>Actor photos</h2>
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://i.pinimg.com/564x/72/7c/09/727c099553e8168112762e9481bece99.jpg" class="d-block w-100" alt="asd1">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.pinimg.com/564x/83/16/0a/83160a9d5ec84f971b779a282d6f2e6c.jpg" class="d-block w-100" alt="asd2">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.pinimg.com/564x/54/b7/94/54b794f76fe4939e6849ab989d3cd886.jpg" class="d-block w-100" alt="asd3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <section id="popular-films">
+            <h2>Popular films</h2>
+            <div class="card-container">
+              <div class="card" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_FMjpg_UX1066_.jpg" class="card-img-top" alt="fight club">
+                <div class="card-body">
+                  <h5 class="card-title">Fight club</h5>
+                  <p class="card-text">"Fight Club" is a novel by Chuck Palahniuk about an unnamed insurance company employee who suffers from chronic insomnia and is desperately trying to escape his excruciatingly dull life.</p>
+                  <a href="https://www.imdb.com/title/tt0137523/" class="btn btn-primary">IMDB</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/M/MV5BMDQwNDY0M2MtOGFmNy00ZjI5LTkzN2ItMzg5M2IwZTZjY2MyXkEyXkFqcGc@._V1_FMjpg_UX1007_.jpg" class="card-img-top" alt="12 monkeys">
+                <div class="card-body">
+                  <h5 class="card-title">Twelve monkeys</h5>
+                  <p class="card-text">In a post-apocalyptic future of 2035, convict James Cole travels back in time to 1990 to help find a cure for a virus that has wiped out 99% of the Earth's population.</p>
+                  <a href="https://www.imdb.com/title/tt0114746/" class="btn btn-primary">IMDB</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="seven">
+                <div class="card-body">
+                  <h5 class="card-title">Se7en</h5>
+                  <p class="card-text">Two police detectives, Somerset and Mills, investigate a series of murders committed by a serial killer who is killing according to the seven deadly sins.</p>
+                  <a href="https://www.imdb.com/title/tt0114369/" class="btn btn-primary">IMDB</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="actor-info">
+            <h2>Brief actor info</h2>
+            <p class="d-inline-flex gap-1">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Info
+              </button>
+            </p>
+            <div class="collapse card-conjure" id="collapseExample">
+              <div class="card card-body">
+                <p>
+                  William Bradley Pitt <b>(born December 18, 1963)</b> is an American actor and film producer. He is the recipient of various accolades including two Academy Awards, two British Academy Film Awards, two Golden Globe Awards, and a Primetime Emmy Award.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="view-more">
+            <h3>For additional info</h3>
+            <div class="d-grid gap-2 d-md-block">
+              <a class="btn btn-primary" type="button" href="../pages/bootstrap_additional.html">View more</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
