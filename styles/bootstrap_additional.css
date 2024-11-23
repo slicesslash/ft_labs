@@ -27,3 +27,11 @@ ul {
     padding: 12px 0;
 }
 
+td, tr, th {
+    border: 1px solid black;
+}
+
+.card img {
+    height: 429px;
+    object-fit: cover;
+}
